@@ -9,4 +9,4 @@ The dataset used was the Diabetes 130-US hospitals for years 1999-2008 Data Set.
 
 In this repository, one can find the Diabetes 130-US hospitals for years 1999-2008 Data Set (csv file) used for training our model as well as a mapping of numerical IDs to their categorical equivalents for the ***admission_type_id, discharge_disposition_id and admission_source_id*** variables. This repository also contains our source code for the implementation of TabNet and the associated data wrangling and training of the model, having taken reference from Somshubra Majumdar's (@titu1994) [implementation](https://github.com/titu1994/tf-TabNet).
 
-![This is an image](https://user-images.githubusercontent.com/81459293/154810583-8e05aa96-d2ad-4e23-9415-ecead4cf1906.png)
+![This is an image](https://github.com/titu1994/tf-TabNet/blob/master/images/TabNet.png?raw=true)

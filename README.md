@@ -1,9 +1,13 @@
 # MLDA@EEE Deep Learning Week Hackathon
-
-Team: The Learners<br>
+<br>Dates: 30 Sep 2022 - 3 Oct 2022
+<br>Team: The Learners
 <br>Team Members: Ian Ng, Josiah Chua, Calvin Wen, Ong Zhi Hong, Alfred Leong
+<br>[Submission Link](https://devpost.com/software/tabnet-to-identify-diabetic-patients-at-risk-of-re-admission)
 
-A TabNet classifier to identify diabetic patients at risk of hospital re-admission
+### A TabNet classifier to identify diabetic patients at risk of hospital re-admission
+#### Summary
+* Implemented a TabNet classifier with an AUC of 0.62 to identify diabetic patients with high risk of readmission so that healthcare practitioners can intervene to reduce their risk factors
+* Proof of concept for healthcare institutions to use similar deep learning models to identify at-risk diabetic patients, prompting physician consultations for curation of management plans
 
 The dataset used was the Diabetes 130-US hospitals for years 1999-2008 Data Set. In thinking of which model to use for this identification task of whether a patient is at risk of being re-admitted into hospital, other models we considered were Random Forest Classifiers, Naive Bayes Classifiers or an Ensemble of Decision Tree Classifiers. We ultimately decided on implementing a TabNet (https://arxiv.org/abs/1908.07442), a novel high-performance and interpretable canonical deep tabular data learning architecture, on account of its demonstrated performance beating neural network and decision tree variants for a wide range of tabular datasets.
 
